@@ -1,0 +1,31 @@
+SYSTEME & RESEAUX
+29/06/2023
+
+TP : Création d’un réseau entre un PC et un serveur
+
+
+LIVRABLE 3 - Ajout d'un PC au réseau
+
+
+1) Un document avec les réponses aux différentes questions de cette partie :
+
+- Ajouter une carte réseau supplémentaire à votre serveur. Quel est le problème avec cette solution ?
+    Petit rappel : Une carte réseau (ou Network Interface Card en anglais) est en fait un périphérique informatique.
+    Elle fait le lien entre votre ordinateur dans lequel elle est installée et le réseau auquel il se connecte. La carte réseau est donc un circuit électronique imprimé qui se branche directement sur la carte mère.
+
+    Le problème avec cette solution est que si d'autres pc doivent petre raccordés (employés donc pc en +) 
+    il faudra ajouter une nouvelle carte réseau. Cela signifie qu'il y aurait beaucoup de câbles.
+
+- Ajouter un équipement d’interconnexion à votre réseau. Mais quel équipement choisir pour effectuer cette interconnexion.
+Il faut ajouter un switch pour relier les deux pc au serveur.
+
+
+2) Un screenshot de votre montage réseau : 
+cf screen-shot dans Drive
+
+
+3) Une description du parcours effectué par la paquet de test :
+
+Le paquet de test part du PC Directeur transite via le switch et arrive à destination au serveur. Le serveur envoie un accusé de réception du paquet de test au PC Directeur. Cet accusé-réception transite également via le switch qui le dirige vers l'expéditeur aka le PC Directeur.
+
+Pour la PC employé même schéma que ci-dessus hormis qu'il faut remplacer "PC Directeur " par "PC Employé.

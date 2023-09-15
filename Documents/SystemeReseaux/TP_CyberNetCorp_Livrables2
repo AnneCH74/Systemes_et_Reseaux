@@ -1,0 +1,66 @@
+SYSTEME & RESEAUX
+29/06/2023
+
+TP : Création d’un réseau entre un PC et un serveur
+
+
+LIVRABLE 2 - Création d'un réseau entre un PC et un serveur
+
+1) Un document avec les réponses au différentes questions de cette partie :
+
+Quelles sont les machines / types de machines qui vont intervenir dans ce réseau ?
+- Ordinateur personnel du client (M.Silvermoon)
+- Serveur de stockage situé dans les locaux du client
+
+
+    Concentrateur (hub) 
+    Commutateur (switch) 
+    Routeur 
+    Pont (bridge)
+    Passerelle (gateway)
+    Modem 
+    Répéteur
+    Point d’accès
+
+
+
+Quel type de support de communication choisir ?(câble cuivre, fibre optique, Sans-fil...)
+LAN
+
+Il faut choisir la fibre optique ou à défaut les câbles en cuivre. Ils ont une meilleure portée que le sans-fil.
+
+
+Comment les machines sont identifiées au sein d’un réseau ?
+- Qu’est ce qu’une interface réseau ?
+    La partie qui assure la connexion entre un terminal utilisateur et un réseau public ou privé.
+    Une interface réseau est constituée de composants (matériels et logiciels) dont la fonction principale est de rendre
+     l'ordinateur capable de communiquer par le biais d'une ou de plusieurs technologies de mise en réseau.
+- Qu’est ce qu’une adresse MAC ?
+    Une adresse MAC (Media Access Control) est un identifiant physique stocké dans une carte réseau ou une 
+     interface réseau similaire. Elle est unique au monde. Toutes les cartes réseau ont une adresse MAC,
+    même celles contenues dans les PC et autres appareils connectés.
+- Qu’est ce qu’une adresse IP ? Comment peut-on la paramétrer ?
+  Une adresse IP est un numéro d'identification unique attribué de façon permanente ou provisoire à chaque 
+  périphérique faisant partie d'un même réseau informatique utilisant l'Internet Protocol.
+   L'adresse IP est à l'origine du système d'acheminement des paquets de données sur Internet.
+
+   Paramétrage : https://doc.ubuntu-fr.org/tutoriel/comment_configurer_son_reseau_local
+
+
+- Comment tester la bonne configuration et la communication entre deux machines (Dans la
+  vraie vie et pas sur Cisco Packet Tracer)?
+
+On peut tester la bonne configuration grâce à la commande PING : https://kb.netgear.com/fr/22329/Tester-les-connexions-%C3%A0-l-aide-de-commandes-Ping-1479991133922?language=fr
+https://maxinews.fr/tester-la-configuration-des-adresses-ip-du-reseau/
+
+
+
+2) Un screenshot de votre montage réseau : 
+Cf pj dans les dossiers partagés sur le drive
+
+
+
+3) Une description du parcours effectué par le paquet de test :
+Le paquet de test part de l'expéditeur (ici PC du client) et va vers le destinataire (ici le serveur).
+Une fois le paquet réceptionné par le destinataire, il envoie à l'expéditeur un accusé de réception à l'expéditeur.
+
